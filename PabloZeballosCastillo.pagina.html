@@ -14,6 +14,14 @@
     h1 {
       color: #0b57d0;
     }
+    h2 {
+      color: #0b57d0;
+      margin-top: 30px;
+    }
+    .description {
+      margin: 20px 0;
+      line-height: 1.6;
+    }
     .links {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -32,12 +40,35 @@
     .links a:hover {
       background: #e8f0fe;
     }
+    .profesor {
+      padding: 10px 12px;
+      background: white;
+      border: 1px solid #d8dce3;
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+    .profesor strong {
+      color: #0b57d0;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .profesor a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    .profesor a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <h1>Pablo Daniel Zeballos Castillo</h1>
-  <p>Enlaces de distintas páginas:</p>
+  
+  <p class="description">
+    Soy un chico que estudia el primer semestre de la carrera de Ciencias de la Computación en la UCSP, me gusta el deporte y los videojuegos.
+  </p>
 
+  <h2>Enlaces de distintas páginas:</h2>
   <div class="links">
     <a href="https://www.youtube.com" target="_blank">YouTube</a>
     <a href="https://www.instagram.com" target="_blank">Instagram</a>
@@ -115,6 +146,34 @@
     <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn Feed</a>
     <a href="https://www.tiktok.com" target="_blank">TikTok</a>
     <a href="https://www.whatsapp.com" target="_blank">WhatsApp</a>
+  </div>
+
+  <h2>Profesores</h2>
+  <div class="links">
+    <div class="profesor">
+      <strong>Introducción a la Computación: Ernesto Cuadros Vargas</strong>
+      <a href="https://pe.linkedin.com/in/ecuadrosv" target="_blank">https://pe.linkedin.com/in/ecuadrosv</a>
+    </div>
+    <div class="profesor">
+      <strong>Fundamentos Matemáticos para la computación: Luis Diaz Basurco</strong>
+      <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=11109" target="_blank">Concytec</a>
+    </div>
+    <div class="profesor">
+      <strong>Fundamentos de Programación: Julissa Villanueva Llerena</strong>
+      <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=368407" target="_blank">Concytec</a>
+    </div>
+    <div class="profesor">
+      <strong>Introducción a la vida universitaria: Gabriela Ponce Reinoso</strong>
+      <a href="https://pe.linkedin.com/in/gabriela-ponce-reinoso-885922127" target="_blank">https://pe.linkedin.com/in/gabriela-ponce-reinoso-885922127</a>
+    </div>
+    <div class="profesor">
+      <strong>Comunicación: Ángel Rodríguez Cruz</strong>
+      <a href="https://pe.linkedin.com/in/angel-rodriguez-cruz-58b78b85?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">https://pe.linkedin.com/in/angel-rodriguez-cruz-58b78b85</a>
+    </div>
+    <div class="profesor">
+      <strong>Lógica: Kristel Loayza Cruz</strong>
+      <a href="https://www.perucris.pe/entities/person/baf51ed2-70c0-427d-8fdd-b3487c45b778/details" target="_blank">PeruCris</a>
+    </div>
   </div>
 </body>
 </html>
